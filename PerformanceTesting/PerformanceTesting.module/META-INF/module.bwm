@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sca:composite xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:BW="http://xsd.tns.tibco.com/amf/models/sca/implementationtype/BW" xmlns:XMLSchema="http://www.w3.org/2001/XMLSchema" xmlns:compositeext="http://schemas.tibco.com/amx/3.0/compositeext" xmlns:sca="http://www.osoa.org/xmlns/sca/1.0" xmlns:scaext="http://xsd.tns.tibco.com/amf/models/sca/extensions" xmi:id="_qkNf0HslEeqfm6DaRn3Olg" targetNamespace="http://tns.tibco.com/bw/composite/PerformanceTesting.module" name="PerformanceTesting.module" compositeext:version="1.0.0" compositeext:formatVersion="2">
+  <sca:property xmi:id="_roxUIHslEeqfm6DaRn3Olg" name="BW.DEPLOYMENTUNIT.TYPE" type="XMLSchema:string" scalable="true"/>
+  <sca:property xmi:id="_rpEPEHslEeqfm6DaRn3Olg" name="BW.APPNODE.NAME" type="XMLSchema:string" scalable="true"/>
+  <sca:property xmi:id="_rpKVsHslEeqfm6DaRn3Olg" name="BW.DEPLOYMENTUNIT.NAME" type="XMLSchema:string" scalable="true"/>
+  <sca:property xmi:id="_rpUGsHslEeqfm6DaRn3Olg" name="BW.HOST.NAME" type="XMLSchema:string" scalable="true"/>
+  <sca:property xmi:id="_rpbbcHslEeqfm6DaRn3Olg" name="BW.DOMAIN.NAME" type="XMLSchema:string" scalable="true"/>
+  <sca:property xmi:id="_rpj-UHslEeqfm6DaRn3Olg" name="BW.DEPLOYMENTUNIT.VERSION" type="XMLSchema:string" scalable="true"/>
+  <sca:property xmi:id="_rptIQHslEeqfm6DaRn3Olg" name="BW.APPSPACE.NAME" type="XMLSchema:string" scalable="true"/>
+  <sca:property xmi:id="_rpz18HslEeqfm6DaRn3Olg" name="BW.MODULE.VERSION" type="XMLSchema:string" scalable="true"/>
+  <sca:property xmi:id="_rp6joHslEeqfm6DaRn3Olg" name="BW.MODULE.NAME" type="XMLSchema:string" scalable="true"/>
+  <sca:component xmi:id="_rGRrEHslEeqfm6DaRn3Olg" name="ComponentProcess" compositeext:version="1.0.0.qualifier">
+    <scaext:implementation xsi:type="BW:BWComponentImplementation" xmi:id="_rGRrEXslEeqfm6DaRn3Olg" processName="performancetesting.module.Process"/>
+  </sca:component>
+</sca:composite>

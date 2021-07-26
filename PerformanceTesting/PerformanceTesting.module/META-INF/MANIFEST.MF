@@ -1,0 +1,24 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: PerformanceTesting Module
+Bundle-SymbolicName: PerformanceTesting.module
+Bundle-Version: 1.0.0.qualifier
+Bundle-ClassPath: .
+Bundle-Vendor: TIBCO Software Inc.
+Export-Package: .
+TIBCO-BW-Version: 6.6.0 HF1 V55 2020-01-17
+Import-Package: com.tibco.tibjms;version="8.5.1",
+ javax.jms;version="2.0.0",
+ org.slf4j;version="1.7.5"
+TIBCO-BW-JobSharedVariables: META-INF/module.jsv
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+TIBCO-BW-ConfigProfile: META-INF/default.substvar
+TIBCO-BW-ModuleSharedVariables: META-INF/module.msv
+TIBCO-BW-Edition: bwe
+Require-Capability: com.tibco.bw.model; filter:="(name=bwext)",
+ com.tibco.bw.palette; filter:="(name=bw.generalactivities)",
+ com.tibco.bw.palette; filter:="(name=bw.rv)",
+ com.tibco.bw.palette; filter:="(name=bw.java)",
+ com.tibco.bw.sharedresource.model; filter:="(name=bw.java)",
+ com.tibco.bw.sharedresource.model; filter:="(name=bw.rv)"
+TIBCO-BW-ApplicationModule: META-INF/module.bwm

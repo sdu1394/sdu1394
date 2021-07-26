@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<xsd:schema xmlns:tibex="http://www.tibco.com/bpel/2007/extensions" xmlns:tns="http://tns.tibco.com/bw/activity/rv/subscriber/xsd/output/5ab88f5e-96c9-4c93-8f2a-f28e0dd8c720" xmlns:xsd="http://www.w3.org/2001/XMLSchema" attributeFormDefault="unqualified" elementFormDefault="unqualified" targetNamespace="http://tns.tibco.com/bw/activity/rv/subscriber/xsd/output/5ab88f5e-96c9-4c93-8f2a-f28e0dd8c720">
+  <xsd:element name="body" tibex:source="bw.rv.subscriber">
+    <xsd:complexType>
+      <xsd:sequence>
+        <xsd:element name="data" type="xsd:string"/>
+      </xsd:sequence>
+    </xsd:complexType>
+  </xsd:element>
+</xsd:schema>

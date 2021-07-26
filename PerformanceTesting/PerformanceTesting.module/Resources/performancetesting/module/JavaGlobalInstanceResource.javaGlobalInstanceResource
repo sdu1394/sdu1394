@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jndi:namedResource xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:javasharedresource="http://ns.tibco.com/bw/palette/javasharedresource" xmlns:jndi="http://xsd.tns.tibco.com/amf/models/sharedresource/jndi" xmi:id="_OT29sHsnEeqfm6DaRn3Olg" name="performancetesting.module.JavaGlobalInstanceResource" type="javasharedresource:JavaGlobalInstanceResource">
+  <jndi:configuration xsi:type="javasharedresource:JavaGlobalInstance" xmi:id="_OT6BAHsnEeqfm6DaRn3Olg" className="FastSendEventToQueue" methodName="FastSendEventToQueue" isNewShared="true">
+    <javaConstructorParameter xmi:id="_jro4EIEQEeqPydzMzhCeeQ" paramName="emsServerUrl" paramType="string" paramValue="tcp://localhost:7222"/>
+    <methodParameters xmi:id="_jroRAIEQEeqPydzMzhCeeQ" paramType="string"/>
+  </jndi:configuration>
+</jndi:namedResource>
