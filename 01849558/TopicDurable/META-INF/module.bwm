@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sca:composite xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:BW="http://xsd.tns.tibco.com/amf/models/sca/implementationtype/BW" xmlns:XMLSchema="http://www.w3.org/2001/XMLSchema" xmlns:compositeext="http://schemas.tibco.com/amx/3.0/compositeext" xmlns:sca="http://www.osoa.org/xmlns/sca/1.0" xmlns:scaext="http://xsd.tns.tibco.com/amf/models/sca/extensions" xmi:id="_TW_X4F9xEeqKCp3Eke3pHg" targetNamespace="http://tns.tibco.com/bw/composite/TopicDurable" name="TopicDurable" compositeext:version="1.0.0" compositeext:formatVersion="2">
+  <sca:property xmi:id="_UUvZkF9xEeqKCp3Eke3pHg" name="BW.DEPLOYMENTUNIT.TYPE" type="XMLSchema:string" scalable="true"/>
+  <sca:property xmi:id="_UU7m0F9xEeqKCp3Eke3pHg" name="BW.APPNODE.NAME" type="XMLSchema:string" scalable="true"/>
+  <sca:property xmi:id="_UVCUgF9xEeqKCp3Eke3pHg" name="BW.DEPLOYMENTUNIT.NAME" type="XMLSchema:string" scalable="true"/>
+  <sca:property xmi:id="_UVIbIF9xEeqKCp3Eke3pHg" name="BW.HOST.NAME" type="XMLSchema:string" scalable="true"/>
+  <sca:property xmi:id="_UVOhwF9xEeqKCp3Eke3pHg" name="BW.DOMAIN.NAME" type="XMLSchema:string" scalable="true"/>
+  <sca:property xmi:id="_UVUoYF9xEeqKCp3Eke3pHg" name="BW.DEPLOYMENTUNIT.VERSION" type="XMLSchema:string" scalable="true"/>
+  <sca:property xmi:id="_UVZg4F9xEeqKCp3Eke3pHg" name="BW.APPSPACE.NAME" type="XMLSchema:string" scalable="true"/>
+  <sca:property xmi:id="_UVavAF9xEeqKCp3Eke3pHg" name="BW.MODULE.VERSION" type="XMLSchema:string" scalable="true"/>
+  <sca:property xmi:id="_UVg1oF9xEeqKCp3Eke3pHg" name="BW.MODULE.NAME" type="XMLSchema:string" scalable="true"/>
+  <sca:component xmi:id="_T5CVAF9xEeqKCp3Eke3pHg" name="ComponentProcess" compositeext:version="1.0.0.qualifier">
+    <scaext:implementation xsi:type="BW:BWComponentImplementation" xmi:id="_T5HNgF9xEeqKCp3Eke3pHg" processName="topicdurable.JMSSend"/>
+  </sca:component>
+  <sca:component xmi:id="_oK9WEF9xEeqKCp3Eke3pHg" name="ComponentJMSReceive" compositeext:version="1.0.0.qualifier">
+    <scaext:implementation xsi:type="BW:BWComponentImplementation" xmi:id="_oK9WEV9xEeqKCp3Eke3pHg" processName="topicdurable.JMSReceive"/>
+  </sca:component>
+</sca:composite>
